@@ -6,7 +6,7 @@
 
 nav {
     display: flex;
-    justify-content: left;
+    /* justify-content: left; */
     align-items: center;
     height: 8vh;
     background-color: rgb(20, 18, 18);
@@ -41,7 +41,8 @@ nav {
     position: relative;
     display: flex;
     padding: 60px;
-    justify-content: end;
+    justify-content:flex-end;
+    float: right;
     margin-left: 1100px;
 }
 
@@ -120,7 +121,7 @@ nav {
     }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:1750px) {
     body {
         overflow-x: hidden;
     }
@@ -147,6 +148,26 @@ nav {
         position: relative;
         padding: 10px;
         border-radius: 10px;
+    }
+    .navbar-buttons {
+        position: relative;
+        display: flex;
+        padding: 60px;
+        justify-content:end;
+        margin-left: 1300px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .button {
+        position: relative;
+        padding: 5px;
+        border-radius: 10px;
+        /* font-weight: 500; */
+        font-size: 10px;
+    }
+    .navbar-buttons {
+        margin-left: 50px;
     }
 }
 
