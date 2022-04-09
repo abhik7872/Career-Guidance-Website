@@ -111,6 +111,9 @@ nav {
     body {
         overflow-x: hidden;
     }
+    nav {
+        display: flex;
+    }
     .nav-links {
         position: absolute;
         left: 0px;
