@@ -233,3 +233,7 @@ nav {
     margin-top: 8rem;
     color: black;
 }
+
+.main p {
+    font-size: 50px;
+}
