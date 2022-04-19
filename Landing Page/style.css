@@ -7,11 +7,11 @@
     padding: 0px;
 }
 
-body {
+/* body {
     background-image: url(/images/Education.jpeg);
     background-size: cover;
     background-attachment: fixed;
-}
+} */
 
 nav {
     display: flex;
@@ -87,7 +87,7 @@ nav {
     font-weight: bold;
     margin-right: 18px;
     padding: 10px;
-    border-radius: 8px;
+    border-radius: 25px;
     border: none;
     color: #fff;
     background-color: rgb(5, 121, 5);
@@ -111,7 +111,7 @@ nav {
     bottom: 0%;
     opacity: 0;
     content: "";
-    border-radius: 8px;
+    border-radius: 25px;
     background-color: #DCDCEE;
 }
 
@@ -237,7 +237,7 @@ nav {
 }
 
 .main h1 {
-    font-size: 70px;
+    font-size: 50px;
     font-family: 'Akshar', sans-serif;
     color: #fff;
     position: relative;
@@ -246,5 +246,23 @@ nav {
 }
 
 .main p {
-    font-size: 50px;
+    font-size: 40px;
 }
+
+.search input[type=text]{
+    width:400px;
+    height:50px;
+    border-radius:25px;
+    padding: 10px;
+}
+      
+.search{
+    margin-top: 50px;
+    border: 5px;
+}
+      
+.search button{
+    margin-left: 10px;
+    font-size: 20px;
+    padding: 15px;
+} 
