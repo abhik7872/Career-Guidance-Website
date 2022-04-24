@@ -10,28 +10,24 @@
 <body>
     <form>
         <div class="box">
-            <tr>
-                <td class="commonHeader" align="center" colspan="3" class="heading">
-                    <h1>Login</h1>
-                </td>
-            </tr>
-            <tr>
-                <td class="commonLabel" align="right">Email Address:</td>
-                <td>
-                    <input type="text" class="commonInput" placeholder="Email Address" />
-                </td>
-            </tr>
-            <tr>
-                <td align="right" class="commonLabel">Password:</td>
-                <td>
-                    <input type="password" class="commonInput" placeholder="Password" />
-                </td>
-            </tr>
-            <tr>
-                <td colspan="3" align="center" valign="center">
-                    <button type="button" class="buttons button1">Login</button>
-                </td>
-            </tr>
+            <h1>Log In</h1>
+            <form method="post">
+                <div class="txt__field">
+                    <input type="text" required>
+                    <span></span>
+                    <label>Email Id</label>
+                </div>
+                <div class="txt__field">
+                    <input type="password" required>
+                    <span></span>
+                    <label>Password</label>
+                </div>
+                <div class="pass">Forgot Password?</div>
+                <button type="button" class="buttons">Log In</button>
+                <div class="signup__link">
+                    Not a member? <a href="">Sign Up</a>
+                </div>
+            </form>
         </div>
     </form>
 </body>
