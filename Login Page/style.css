@@ -105,6 +105,7 @@ form .txt__field {
 .signup__link a {
     color: #2691d9;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .signup__link a:hover {
@@ -127,6 +128,87 @@ form .txt__field {
     outline: none;
     z-index: 1;
     top: 0%;
+}
+
+.choiceMaking {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+.options {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    width: 80%;
+    text-align: center;
+    /* display: flex; */
+}
+
+.options a {
+    text-decoration: none;
+    color: #000;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.options h1 {
+    font-family: 'Square Peg', cursive;
+    font-size: 60px;
+    color: rgb(182, 68, 68);
+}
+
+.sub {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.sub ul {
+    display: flex;
+    flex-direction: column;
+    /* cursor: pointer; */
+    position: relative;
+    /* margin: auto; */
+    justify-content: center;
+}
+
+.sub a {
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+
+.sub a:hover {
+    font-size: 35px;
+    text-decoration: underline;
+    transition: 0.3s all ease;
+}
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    margin-right: 15px;
+}
+  
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .buttons:hover {
