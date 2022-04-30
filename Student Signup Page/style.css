@@ -13,7 +13,7 @@ body{
 
 .box{
     width: 520px;
-    height: 820px;
+    height: 750px;
     box-sizing: border-box;
     top: 50%;
     left: 50%;
@@ -159,7 +159,7 @@ form .txt__field {
 @media screen and (max-width: 667px) {
     .box{
         width: 320px;
-        height: 620px;
+        height: 600px;
         /* box-sizing: border-box; */
         /* top: 50%; */
         left: 50%;
