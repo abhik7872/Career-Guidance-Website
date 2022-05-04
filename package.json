@@ -1,0 +1,26 @@
+{
+  "name": "career-guidance-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhik7872/Career-Guidance-Website.git"
+  },
+  "author": "Abhik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhik7872/Career-Guidance-Website/issues"
+  },
+  "homepage": "https://github.com/abhik7872/Career-Guidance-Website#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
