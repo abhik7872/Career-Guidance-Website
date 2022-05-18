@@ -13,7 +13,7 @@ body{
 
 .box{
     width: 520px;
-    height: 750px;
+    height: 770px;
     box-sizing: border-box;
     top: 50%;
     left: 50%;
@@ -96,7 +96,7 @@ form .txt__field {
 }
 
 .login__link {
-    margin: 30px 0;
+    margin: 15px 0;
     text-align: center;
     font-size: 16px;
     color: #666;
@@ -109,6 +109,28 @@ form .txt__field {
 }
 
 .login__link a:hover {
+    text-decoration: underline;
+}
+
+.back__to__home {
+    margin: 15px 0;
+    text-align: center;
+    font-size: 16px;
+    color: #666;
+}
+
+.back__to__home h5 {
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+.back__to__home a {
+    color: #2691d9;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.back__to__home a:hover {
     text-decoration: underline;
 }
 
