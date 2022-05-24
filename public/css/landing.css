@@ -191,6 +191,25 @@ nav {
 .aboutus {
     margin-top: 8rem;
     height: 100vh;
+    text-align: center;
+    padding: 15rem;
+    font-family: 'Akshar', sans-serif;
+}
+
+.aboutus h1 {
+    font-size: 50px;
+    padding: 15px;
+    color: rgb(43, 82, 43);
+}
+
+.aboutus p {
+    font-size: 30px;
+    padding: 5px;
+}
+
+.aboutus button {
+    font-size: 20px;
+    margin-top: 30px;
 }
 
 .contactus {
