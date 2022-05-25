@@ -215,6 +215,87 @@ nav {
 .contactus {
     margin-top: 8rem;
     height: 100vh;
+    padding: 32rem;
+}
+
+.box{
+    width: 720px;
+    height: 500px;
+    box-sizing: border-box;
+    top: 50%;
+    left: 50%;
+    padding: 40px;
+    position: relative;
+    transform: translate(-50%, -50%);
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.box h1 {
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid silver;
+}
+
+.box form {
+    margin: 0 40px;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+.box button {
+    font-size: 20px;
+    width: 100%;
+}
+
+form .txt__field {
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 30px 0;
+}
+
+.txt__field input {
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.txt__field label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #adadad;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.txt__field span::before {
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: #2691d9;
+    transition: 0.5s;
+}
+
+.txt__field input:focus ~ label,
+.txt__field input:valid ~ label {
+    top: -5px;
+    color: #2691d9;
+}
+
+.txt__field input:focus ~ span::before,
+.txt__field input:valid ~ span::after {
+    width: 100%;
 }
 
 .burger {
@@ -327,7 +408,7 @@ nav {
     }
     nav {
         display: flex;
-        position: static;
+        position: fixed;
     }
     .nav-links {
         position: fixed;
